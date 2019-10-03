@@ -5,3 +5,5 @@ script:
 - set -o pipefail
 - swift --version
 - rake
+- bundle exec fastlane pass_tests
+

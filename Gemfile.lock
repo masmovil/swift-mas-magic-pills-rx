@@ -5,6 +5,12 @@ GIT
     danger-bq_helpers (1.0.1)
       danger-plugin-api (~> 1.0)
 
+GIT
+  remote: https://github.com/bq/fastlane-plugin-test_scheme
+  revision: c0f5ab47e0e5686f9c92bdd9ccb2c1205d612b94
+  specs:
+    fastlane-plugin-test_scheme (1.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -150,6 +156,8 @@ GEM
       xcodeproj (>= 1.8.1, < 2.0.0)
       xcpretty (~> 0.3.0)
       xcpretty-travis-formatter (>= 0.0.3)
+    fastlane-plugin-trainer (0.4.1)
+      trainer (>= 0.7.0)
     ffi (1.11.1)
     fourflusher (2.3.1)
     fuzzy_match (2.0.4)
@@ -290,6 +298,8 @@ DEPENDENCIES
   danger-xcodebuild
   danger-xcov
   fastlane
+  fastlane-plugin-test_scheme!
+  fastlane-plugin-trainer
   overcommit
   trainer
   xcpretty-json-formatter
