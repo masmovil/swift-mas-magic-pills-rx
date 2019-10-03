@@ -1,0 +1,11 @@
+gemfile: Gemfile
+
+concurrency: '1'
+
+PreCommit:
+  BundleCheck:
+    enabled: true
+
+  CustomScript:
+    enabled: true
+    command: ["./bin/pre-commit.sh"]
