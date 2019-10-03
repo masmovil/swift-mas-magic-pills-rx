@@ -14,4 +14,6 @@ task(:setup) do
   sh('bundle exec overcommit --sign')
   sh('bundle exec overcommit --sign pre-commit')
   sh('bundle exec overcommit --sign post-checkout')
+  puts('➡️  Carthage')
+  sh('carthage bootstrap --cache-builds --no-use-binaries')
 end
