@@ -10,4 +10,5 @@ script:
 - swift --version
 - rake
 - bundle exec fastlane pass_tests
-
+- bundle exec pod lib lint
+- bundle exec danger

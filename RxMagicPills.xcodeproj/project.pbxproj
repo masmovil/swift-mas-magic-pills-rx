@@ -23,9 +23,10 @@
 		F26C3AF922537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
 		F26C3AFA22537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
 		F26C3AFB22537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
-		F2AC72772346005300661BE9 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72762346005300661BE9 /* ExampleTests.swift */; };
-		F2AC72782346005300661BE9 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72762346005300661BE9 /* ExampleTests.swift */; };
-		F2AC72792346005300661BE9 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72762346005300661BE9 /* ExampleTests.swift */; };
+		F29759BA23475A8800C3805E /* PowerTabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29759B923475A8800C3805E /* PowerTabBarControllerTests.swift */; };
+		F29759BC234761A900C3805E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29759BB234761A900C3805E /* Media.xcassets */; };
+		F29759BD234761A900C3805E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29759BB234761A900C3805E /* Media.xcassets */; };
+		F29759BE234761A900C3805E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29759BB234761A900C3805E /* Media.xcassets */; };
 		F2AC728223460F9900661BE9 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727D23460F9900661BE9 /* RxRelay.framework */; };
 		F2AC728323460F9900661BE9 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727D23460F9900661BE9 /* RxRelay.framework */; };
 		F2AC728423460F9900661BE9 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727E23460F9900661BE9 /* RxBlocking.framework */; };
@@ -64,6 +65,30 @@
 		F2AC72B923460FFB00661BE9 /* MagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72B423460FFB00661BE9 /* MagicPills.framework */; };
 		F2AC72BA23460FFB00661BE9 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72B523460FFB00661BE9 /* RxBlocking.framework */; };
 		F2AC72BB23460FFB00661BE9 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72B623460FFB00661BE9 /* RxRelay.framework */; };
+		F2AC72C1234610FF00661BE9 /* PowerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72C0234610FF00661BE9 /* PowerButton.swift */; };
+		F2AC72C92346121700661BE9 /* PowerTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72C42346121700661BE9 /* PowerTabBar.swift */; };
+		F2AC72CB2346121700661BE9 /* PowerTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72C52346121700661BE9 /* PowerTabBarItem.swift */; };
+		F2AC72CD2346121800661BE9 /* PowerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72C62346121700661BE9 /* PowerTabBarController.swift */; };
+		F2AC72D52346126B00661BE9 /* PowerTabBarControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72D02346126A00661BE9 /* PowerTabBarControllerDataSource.swift */; };
+		F2AC72D62346126B00661BE9 /* PowerTabBarItemable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72D12346126A00661BE9 /* PowerTabBarItemable.swift */; };
+		F2AC72D72346126B00661BE9 /* PowerTabBarAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72D22346126A00661BE9 /* PowerTabBarAnimatable.swift */; };
+		F2AC72D82346126B00661BE9 /* PowerTabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72D32346126B00661BE9 /* PowerTabBarDelegate.swift */; };
+		F2AC72D92346126B00661BE9 /* PowerTabbableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72D42346126B00661BE9 /* PowerTabbableViewController.swift */; };
+		F2AC72DB2346128300661BE9 /* PowerTabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72DA2346128300661BE9 /* PowerTabBarControllerDelegate.swift */; };
+		F2AC72DD234612AD00661BE9 /* PowerTabBarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72DC234612AD00661BE9 /* PowerTabBarDataSource.swift */; };
+		F2AC72E22346145300661BE9 /* PowerUnderlineAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72DF2346145300661BE9 /* PowerUnderlineAnimator.swift */; };
+		F2AC72E32346145300661BE9 /* PowerZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72E02346145300661BE9 /* PowerZoomAnimator.swift */; };
+		F2AC72E42346145300661BE9 /* PowerSlidingOverlayAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72E12346145300661BE9 /* PowerSlidingOverlayAnimator.swift */; };
+		F2AC72E8234635A600661BE9 /* PowerButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72E7234635A600661BE9 /* PowerButtonTests.swift */; };
+		F2AC72E9234635A600661BE9 /* PowerButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72E7234635A600661BE9 /* PowerButtonTests.swift */; };
+		F2AC72EA234635AE00661BE9 /* PowerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72C0234610FF00661BE9 /* PowerButton.swift */; };
+		F2AC72ED23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */; };
+		F2AC72EE23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */; };
+		F2AC72EF23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */; };
+		F2AC72F023463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */; };
+		F2AC72F323463A5A00661BE9 /* ObservableTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72F223463A5A00661BE9 /* ObservableTypeTests.swift */; };
+		F2AC72F423463A5A00661BE9 /* ObservableTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72F223463A5A00661BE9 /* ObservableTypeTests.swift */; };
+		F2AC72F523463A5A00661BE9 /* ObservableTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72F223463A5A00661BE9 /* ObservableTypeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,7 +130,8 @@
 		E28C312021494B4300DE964B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F200833C2265E3BD00AC6EE1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		F26C3AF722537A4600189D28 /* RxMagicPills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxMagicPills.swift; sourceTree = "<group>"; };
-		F2AC72762346005300661BE9 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
+		F29759B923475A8800C3805E /* PowerTabBarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerTabBarControllerTests.swift; sourceTree = "<group>"; };
+		F29759BB234761A900C3805E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F2AC727D23460F9900661BE9 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 		F2AC727E23460F9900661BE9 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		F2AC727F23460F9900661BE9 /* MagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicPills.framework; path = Carthage/Build/iOS/MagicPills.framework; sourceTree = "<group>"; };
@@ -129,6 +155,23 @@
 		F2AC72B423460FFB00661BE9 /* MagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicPills.framework; path = Carthage/Build/watchOS/MagicPills.framework; sourceTree = "<group>"; };
 		F2AC72B523460FFB00661BE9 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/watchOS/RxBlocking.framework; sourceTree = "<group>"; };
 		F2AC72B623460FFB00661BE9 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/watchOS/RxRelay.framework; sourceTree = "<group>"; };
+		F2AC72C0234610FF00661BE9 /* PowerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerButton.swift; sourceTree = "<group>"; };
+		F2AC72C42346121700661BE9 /* PowerTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerTabBar.swift; sourceTree = "<group>"; };
+		F2AC72C52346121700661BE9 /* PowerTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerTabBarItem.swift; sourceTree = "<group>"; };
+		F2AC72C62346121700661BE9 /* PowerTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerTabBarController.swift; sourceTree = "<group>"; };
+		F2AC72D02346126A00661BE9 /* PowerTabBarControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerTabBarControllerDataSource.swift; sourceTree = "<group>"; };
+		F2AC72D12346126A00661BE9 /* PowerTabBarItemable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerTabBarItemable.swift; sourceTree = "<group>"; };
+		F2AC72D22346126A00661BE9 /* PowerTabBarAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerTabBarAnimatable.swift; sourceTree = "<group>"; };
+		F2AC72D32346126B00661BE9 /* PowerTabBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerTabBarDelegate.swift; sourceTree = "<group>"; };
+		F2AC72D42346126B00661BE9 /* PowerTabbableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerTabbableViewController.swift; sourceTree = "<group>"; };
+		F2AC72DA2346128300661BE9 /* PowerTabBarControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerTabBarControllerDelegate.swift; sourceTree = "<group>"; };
+		F2AC72DC234612AD00661BE9 /* PowerTabBarDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerTabBarDataSource.swift; sourceTree = "<group>"; };
+		F2AC72DF2346145300661BE9 /* PowerUnderlineAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerUnderlineAnimator.swift; sourceTree = "<group>"; };
+		F2AC72E02346145300661BE9 /* PowerZoomAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerZoomAnimator.swift; sourceTree = "<group>"; };
+		F2AC72E12346145300661BE9 /* PowerSlidingOverlayAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerSlidingOverlayAnimator.swift; sourceTree = "<group>"; };
+		F2AC72E7234635A600661BE9 /* PowerButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerButtonTests.swift; sourceTree = "<group>"; };
+		F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTypeExtensions.swift; sourceTree = "<group>"; };
+		F2AC72F223463A5A00661BE9 /* ObservableTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTypeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +300,8 @@
 		E26053F02121880000D013B5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F2AC72EB23463A0300661BE9 /* RxSwift */,
+				F2AC72BD2346109300661BE9 /* UIKit */,
 				F26C3AF722537A4600189D28 /* RxMagicPills.swift */,
 				E26053F12121880000D013B5 /* RxMagicPills.h */,
 				E26053F22121880000D013B5 /* Info.plist */,
@@ -267,8 +312,10 @@
 		E26053FB2121880000D013B5 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F2AC72F123463A4500661BE9 /* RxSwift */,
+				F2AC72E52346358B00661BE9 /* UIKit */,
 				E26053FE2121880000D013B5 /* Info.plist */,
-				F2AC72762346005300661BE9 /* ExampleTests.swift */,
+				F29759BB234761A900C3805E /* Media.xcassets */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -336,6 +383,108 @@
 				F2AC72B223460FFB00661BE9 /* RxSwift.framework */,
 			);
 			name = watchOS;
+			sourceTree = "<group>";
+		};
+		F29759B723475A5700C3805E /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC72C52346121700661BE9 /* PowerTabBarItem.swift */,
+				F2AC72C42346121700661BE9 /* PowerTabBar.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		F29759B823475A7100C3805E /* PowerTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F29759B923475A8800C3805E /* PowerTabBarControllerTests.swift */,
+			);
+			path = PowerTabBarController;
+			sourceTree = "<group>";
+		};
+		F2AC72BD2346109300661BE9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC72BE234610A600661BE9 /* Components */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		F2AC72BE234610A600661BE9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC72BF234610B400661BE9 /* PowerTabBarController */,
+				F2AC72C0234610FF00661BE9 /* PowerButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F2AC72BF234610B400661BE9 /* PowerTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC72DE2346144B00661BE9 /* Animator */,
+				F2AC72CF2346125800661BE9 /* Protocols */,
+				F29759B723475A5700C3805E /* Items */,
+				F2AC72C62346121700661BE9 /* PowerTabBarController.swift */,
+			);
+			path = PowerTabBarController;
+			sourceTree = "<group>";
+		};
+		F2AC72CF2346125800661BE9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC72D42346126B00661BE9 /* PowerTabbableViewController.swift */,
+				F2AC72D22346126A00661BE9 /* PowerTabBarAnimatable.swift */,
+				F2AC72D02346126A00661BE9 /* PowerTabBarControllerDataSource.swift */,
+				F2AC72DA2346128300661BE9 /* PowerTabBarControllerDelegate.swift */,
+				F2AC72D32346126B00661BE9 /* PowerTabBarDelegate.swift */,
+				F2AC72DC234612AD00661BE9 /* PowerTabBarDataSource.swift */,
+				F2AC72D12346126A00661BE9 /* PowerTabBarItemable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F2AC72DE2346144B00661BE9 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC72E12346145300661BE9 /* PowerSlidingOverlayAnimator.swift */,
+				F2AC72DF2346145300661BE9 /* PowerUnderlineAnimator.swift */,
+				F2AC72E02346145300661BE9 /* PowerZoomAnimator.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		F2AC72E52346358B00661BE9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC72E62346359200661BE9 /* Components */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		F2AC72E62346359200661BE9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F29759B823475A7100C3805E /* PowerTabBarController */,
+				F2AC72E7234635A600661BE9 /* PowerButtonTests.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F2AC72EB23463A0300661BE9 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		F2AC72F123463A4500661BE9 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC72F223463A5A00661BE9 /* ObservableTypeTests.swift */,
+			);
+			path = RxSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -581,6 +730,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F29759BC234761A900C3805E /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +745,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F29759BD234761A900C3805E /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +760,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F29759BE234761A900C3805E /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +823,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AC72ED23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
+				F2AC72E42346145300661BE9 /* PowerSlidingOverlayAnimator.swift in Sources */,
+				F2AC72D62346126B00661BE9 /* PowerTabBarItemable.swift in Sources */,
+				F2AC72CB2346121700661BE9 /* PowerTabBarItem.swift in Sources */,
+				F2AC72DB2346128300661BE9 /* PowerTabBarControllerDelegate.swift in Sources */,
+				F2AC72D52346126B00661BE9 /* PowerTabBarControllerDataSource.swift in Sources */,
+				F2AC72DD234612AD00661BE9 /* PowerTabBarDataSource.swift in Sources */,
+				F2AC72CD2346121800661BE9 /* PowerTabBarController.swift in Sources */,
 				F26C3AF822537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F2AC72D72346126B00661BE9 /* PowerTabBarAnimatable.swift in Sources */,
+				F2AC72C92346121700661BE9 /* PowerTabBar.swift in Sources */,
+				F2AC72E22346145300661BE9 /* PowerUnderlineAnimator.swift in Sources */,
+				F2AC72D82346126B00661BE9 /* PowerTabBarDelegate.swift in Sources */,
+				F2AC72C1234610FF00661BE9 /* PowerButton.swift in Sources */,
+				F2AC72E32346145300661BE9 /* PowerZoomAnimator.swift in Sources */,
+				F2AC72D92346126B00661BE9 /* PowerTabbableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,7 +846,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AC72772346005300661BE9 /* ExampleTests.swift in Sources */,
+				F2AC72F323463A5A00661BE9 /* ObservableTypeTests.swift in Sources */,
+				F29759BA23475A8800C3805E /* PowerTabBarControllerTests.swift in Sources */,
+				F2AC72E8234635A600661BE9 /* PowerButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,6 +856,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AC72EE23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F26C3AF922537A4600189D28 /* RxMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -695,7 +865,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AC72782346005300661BE9 /* ExampleTests.swift in Sources */,
+				F2AC72F423463A5A00661BE9 /* ObservableTypeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,7 +873,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AC72EF23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F26C3AFA22537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F2AC72EA234635AE00661BE9 /* PowerButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,7 +883,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AC72792346005300661BE9 /* ExampleTests.swift in Sources */,
+				F2AC72F523463A5A00661BE9 /* ObservableTypeTests.swift in Sources */,
+				F2AC72E9234635A600661BE9 /* PowerButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,6 +892,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AC72F023463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F26C3AFB22537A4600189D28 /* RxMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
