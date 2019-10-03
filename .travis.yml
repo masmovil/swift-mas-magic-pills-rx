@@ -1,6 +1,10 @@
 language: swift
 osx_image: xcode10.3
 
+cache:
+  directories:
+  - Carthage
+
 script:
 - set -o pipefail
 - swift --version
