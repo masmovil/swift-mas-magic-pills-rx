@@ -1,6 +1,6 @@
 import UIKit
 
-public class PowerZoomAnimator: PowerTabBarAnimatable {
+class PowerZoomAnimator {
 
     private var scaleX: CGFloat
     private var scaleY: CGFloat

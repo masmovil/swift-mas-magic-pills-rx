@@ -14,12 +14,9 @@ class PowerTabBarItem: PowerTabBarContainer {
         fatalError("init(coder:) has not been implemented")
     }
 
-    func append(item: UITabBarItem) {
-        guard let image = item.image else {
-            fatalError("TabBar item has no image set.")
-        }
+    func append(image: UIImage, selectedImage: UIImage?, title: String, accessibilityLabel: String?) {
         self.defaultImage = image
-        self.selectedImage = item.selectedImage
+        self.selectedImage = selectedImage
         let rect = CGRect(x: (self.frame.width - self.defaultImage.size.width) / 2,
                           y: (self.frame.height - self.defaultImage.size.height) / 2,
                           width: self.frame.width,

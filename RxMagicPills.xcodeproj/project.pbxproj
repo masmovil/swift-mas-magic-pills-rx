@@ -385,13 +385,16 @@
 			name = watchOS;
 			sourceTree = "<group>";
 		};
-		F29759B723475A5700C3805E /* Items */ = {
+		F29759B723475A5700C3805E /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				F2AC72E02346145300661BE9 /* PowerZoomAnimator.swift */,
+				F2AC72D32346126B00661BE9 /* PowerTabBarDelegate.swift */,
+				F2AC72DC234612AD00661BE9 /* PowerTabBarDataSource.swift */,
 				F2AC72C52346121700661BE9 /* PowerTabBarItem.swift */,
 				F2AC72C42346121700661BE9 /* PowerTabBar.swift */,
 			);
-			path = Items;
+			path = Support;
 			sourceTree = "<group>";
 		};
 		F29759B823475A7100C3805E /* PowerTabBarController */ = {
@@ -423,33 +426,22 @@
 			isa = PBXGroup;
 			children = (
 				F2AC72DE2346144B00661BE9 /* Animator */,
-				F2AC72CF2346125800661BE9 /* Protocols */,
-				F29759B723475A5700C3805E /* Items */,
+				F29759B723475A5700C3805E /* Support */,
+				F2AC72D42346126B00661BE9 /* PowerTabbableViewController.swift */,
+				F2AC72D02346126A00661BE9 /* PowerTabBarControllerDataSource.swift */,
+				F2AC72DA2346128300661BE9 /* PowerTabBarControllerDelegate.swift */,
 				F2AC72C62346121700661BE9 /* PowerTabBarController.swift */,
 			);
 			path = PowerTabBarController;
 			sourceTree = "<group>";
 		};
-		F2AC72CF2346125800661BE9 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				F2AC72D42346126B00661BE9 /* PowerTabbableViewController.swift */,
-				F2AC72D02346126A00661BE9 /* PowerTabBarControllerDataSource.swift */,
-				F2AC72DA2346128300661BE9 /* PowerTabBarControllerDelegate.swift */,
-				F2AC72D22346126A00661BE9 /* PowerTabBarAnimatable.swift */,
-				F2AC72D32346126B00661BE9 /* PowerTabBarDelegate.swift */,
-				F2AC72DC234612AD00661BE9 /* PowerTabBarDataSource.swift */,
-				F2AC72D12346126A00661BE9 /* PowerTabBarItemable.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		F2AC72DE2346144B00661BE9 /* Animator */ = {
 			isa = PBXGroup;
 			children = (
+				F2AC72D22346126A00661BE9 /* PowerTabBarAnimatable.swift */,
+				F2AC72D12346126A00661BE9 /* PowerTabBarItemable.swift */,
 				F2AC72E12346145300661BE9 /* PowerSlidingOverlayAnimator.swift */,
 				F2AC72DF2346145300661BE9 /* PowerUnderlineAnimator.swift */,
-				F2AC72E02346145300661BE9 /* PowerZoomAnimator.swift */,
 			);
 			path = Animator;
 			sourceTree = "<group>";

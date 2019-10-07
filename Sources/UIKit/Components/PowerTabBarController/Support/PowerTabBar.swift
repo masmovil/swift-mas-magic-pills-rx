@@ -15,7 +15,6 @@ class PowerTabBar: UIView {
     }
 
     // MARK: - Private Properties
-    private(set) var tabBarItems = [UITabBarItem]()
     private(set) var selectedIndex: Int
     private(set) var initialIndex: Int
     private(set) var animator: PowerTabBarAnimatable!
@@ -34,14 +33,18 @@ class PowerTabBar: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
+    var totalTabs: Int {
+        return tabBarDataSource?.powerTabBarViewControllers.count ?? 0
+    }
+
     // MARK: - Private Methods
+
     private func configure() {
         guard let dataSource = tabBarDataSource else {
             return
         }
 
-        animator = dataSource.tabBarAnimator()
-        tabBarItems = dataSource.tabBarItems()
+        animator = dataSource.powerTabBarAnimator
 
         let containerRects = createContainerRects()
         createTabBarItems(usingContainerRects: containerRects)
@@ -53,7 +56,7 @@ class PowerTabBar: UIView {
 
     private func createContainerRects() -> [CGRect] {
         var rects = [CGRect]()
-        for index in 0..<tabBarItems.count {
+        for index in 0..<totalTabs {
             let containerRect = createTabBarItemContainerRect(atIndex: index)
             rects.append(containerRect)
         }
@@ -61,7 +64,7 @@ class PowerTabBar: UIView {
     }
 
     private func createTabBarItemContainerRect(atIndex index: Int) -> CGRect {
-        let containerWidth = frame.width / CGFloat(tabBarItems.count)
+        let containerWidth = frame.width / CGFloat(totalTabs)
         let containerHeight = frame.height
         let containerRect = CGRect(x: CGFloat(index) * containerWidth,
                                    y: 0,
@@ -72,11 +75,17 @@ class PowerTabBar: UIView {
     }
 
     private func createTabBarItems(usingContainerRects rects: [CGRect]) {
+        guard let dataSource = self.tabBarDataSource else { return }
+
         for (index, rect) in rects.enumerated() {
             let containerRect = rect
 
             let animatedTabBarItem = PowerTabBarItem(frame: containerRect)
-            animatedTabBarItem.append(item: tabBarItems[index])
+            let viewController = dataSource.powerTabBarViewControllers[index]
+            animatedTabBarItem.append(image: viewController.powerTabBarItemImage,
+                                      selectedImage: viewController.powerTabBarItemSelectedImage,
+                                      title: viewController.powerTabBarItemTitle,
+                                      accessibilityLabel: viewController.powerTabBarItemAccessibilityLabel)
             animatedTabBarItems.append(animatedTabBarItem)
 
             let powerButton = PowerButton(frame: containerRect)
@@ -108,6 +117,6 @@ class PowerTabBar: UIView {
             self.animatedTabBarItems[self.selectedIndex].set(isSelected: false)
         }
         self.selectedIndex = index
-        self.tabBarDelegate?.didSelect(index: index)
+        self.tabBarDelegate?.powerTabBar(self, didSelectIndex: index)
     }
 }

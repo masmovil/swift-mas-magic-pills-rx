@@ -7,8 +7,8 @@ open class PowerTabBarController: UITabBarController {
     private let disposeBag = DisposeBag()
 
     // MARK: - Properties
-    public weak var controllerDataSource: PowerTabBarControllerDataSource? { didSet { self.configureViews() } }
-    public weak var controllerDelegate: PowerTabBarControllerDelegate?
+    public weak var powerDataSource: PowerTabBarControllerDataSource? { didSet { self.configureViews() } }
+    public weak var powerDelegate: PowerTabBarControllerDelegate?
 
     // MARK: - Initialiser
     public init() {
@@ -20,17 +20,17 @@ open class PowerTabBarController: UITabBarController {
     }
 
     // MARK: - Private Methods
-    private var powerTabBar: PowerTabBar!
+    var powerTabBar: PowerTabBar!
 
     private func configureViews() {
-        guard let dataSource = self.controllerDataSource else { return }
+        guard let dataSource = self.powerDataSource else { return }
 
         tabBar.isHidden = true
         viewControllers = dataSource.powerTabBarControllerViewControllers
         powerTabBar = PowerTabBar(initialIndex: dataSource.powerTabBarControllerInitialIndex,
-                                  backgroundColor: dataSource.powerTabBarBackgroundColor)
+                                  backgroundColor: dataSource.powerTabBarControllerBackgroundColor)
         view.addSubview(powerTabBar)
-        setupUITabBarConstraints(height: dataSource.powerTabBarHeight)
+        setupUITabBarConstraints(height: dataSource.powerTabBarControllerHeight)
         powerTabBar.tabBarDataSource = self
         powerTabBar.tabBarDelegate = self
 
@@ -67,18 +67,18 @@ open class PowerTabBarController: UITabBarController {
 }
 
 extension PowerTabBarController: PowerTabBarDelegate, PowerTabBarDataSource {
-    public func didSelect(index: Int) {
+    func powerTabBar(_ powerTabBar: PowerTabBar, didSelectIndex index: Int) {
         self.selectedIndex = index
-        self.controllerDelegate?.powerTabBarController(self, didSelectIndex: index)
+        powerDelegate?.powerTabBarController(self, didSelectIndex: index)
     }
 
-    public func tabBarAnimator() -> PowerTabBarAnimatable {
-        guard let dataSource = controllerDataSource else { fatalError() }
-        return dataSource.powerTabBarAnimator
+    var powerTabBarAnimator: PowerTabBarAnimatable {
+        guard let dataSource = powerDataSource else { fatalError() }
+        return dataSource.powerTabBarControllerAnimator
     }
 
-    public func tabBarItems() -> [UITabBarItem] {
-        guard let dataSource = controllerDataSource else { fatalError() }
-        return dataSource.powerTabBarControllerViewControllers.map { $0.powerTabBarItem }
+    var powerTabBarViewControllers: [PowerTabbableViewController] {
+        guard let dataSource = powerDataSource else { fatalError() }
+        return dataSource.powerTabBarControllerViewControllers
     }
 }
