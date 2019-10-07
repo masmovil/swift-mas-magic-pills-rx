@@ -24,12 +24,13 @@ open class PowerTabBarController: UITabBarController {
 
     private func configureViews() {
         guard let dataSource = self.controllerDataSource else { return }
+
         tabBar.isHidden = true
-        viewControllers = dataSource.tabBarControllerViewControllers()
-        powerTabBar = PowerTabBar(initialIndex: dataSource.tabBarControllerInitialIndex(),
-                                  backgroundColor: dataSource.tabBarBackgroundColor())
+        viewControllers = dataSource.powerTabBarControllerViewControllers
+        powerTabBar = PowerTabBar(initialIndex: dataSource.powerTabBarControllerInitialIndex,
+                                  backgroundColor: dataSource.powerTabBarBackgroundColor)
         view.addSubview(powerTabBar)
-        setupUITabBarConstraints(height: dataSource.tabBarHeight())
+        setupUITabBarConstraints(height: dataSource.powerTabBarHeight)
         powerTabBar.tabBarDataSource = self
         powerTabBar.tabBarDelegate = self
 
@@ -68,15 +69,16 @@ open class PowerTabBarController: UITabBarController {
 extension PowerTabBarController: PowerTabBarDelegate, PowerTabBarDataSource {
     public func didSelect(index: Int) {
         self.selectedIndex = index
+        self.controllerDelegate?.powerTabBarController(self, didSelectIndex: index)
     }
 
     public func tabBarAnimator() -> PowerTabBarAnimatable {
-        guard let _ = controllerDataSource else { fatalError() }
-        return PowerSlidingOverlayAnimator(tabColors: [.white, .black, .red])
+        guard let dataSource = controllerDataSource else { fatalError() }
+        return dataSource.powerTabBarAnimator
     }
 
     public func tabBarItems() -> [UITabBarItem] {
         guard let dataSource = controllerDataSource else { fatalError() }
-        return dataSource.tabBarControllerViewControllers().map { $0.powerTabBarItem }
+        return dataSource.powerTabBarControllerViewControllers.map { $0.powerTabBarItem }
     }
 }

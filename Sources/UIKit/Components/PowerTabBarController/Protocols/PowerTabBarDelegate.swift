@@ -1,5 +1,5 @@
 import UIKit
 
-public protocol PowerTabBarDelegate: class {
+protocol PowerTabBarDelegate: class {
     func didSelect(index: Int)
 }

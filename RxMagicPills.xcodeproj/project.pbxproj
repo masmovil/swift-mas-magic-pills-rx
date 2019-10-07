@@ -434,9 +434,9 @@
 			isa = PBXGroup;
 			children = (
 				F2AC72D42346126B00661BE9 /* PowerTabbableViewController.swift */,
-				F2AC72D22346126A00661BE9 /* PowerTabBarAnimatable.swift */,
 				F2AC72D02346126A00661BE9 /* PowerTabBarControllerDataSource.swift */,
 				F2AC72DA2346128300661BE9 /* PowerTabBarControllerDelegate.swift */,
+				F2AC72D22346126A00661BE9 /* PowerTabBarAnimatable.swift */,
 				F2AC72D32346126B00661BE9 /* PowerTabBarDelegate.swift */,
 				F2AC72DC234612AD00661BE9 /* PowerTabBarDataSource.swift */,
 				F2AC72D12346126A00661BE9 /* PowerTabBarItemable.swift */,

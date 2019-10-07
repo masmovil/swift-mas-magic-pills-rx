@@ -11,12 +11,10 @@ class PowerTabBarControllerTests: XCTestCase {
 
         tabBarController.selectedIndex = 0
         tabBarController.selectedIndex = 1
-        tabBarController.selectedIndex = 2
     }
 }
 
 class ExamplePowerTabBar: PowerTabBarController, PowerTabBarControllerDelegate, PowerTabBarControllerDataSource {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,27 +22,23 @@ class ExamplePowerTabBar: PowerTabBarController, PowerTabBarControllerDelegate, 
         self.controllerDelegate = self
     }
 
-    func tabBarItem() -> UITabBarItem {
-        return UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
-    }
-
-    func tabBar(_ tabBarController: PowerTabBarController, index: Int) {
+    func powerTabBarController(_ powerTabBarController: PowerTabBarController, didSelectIndex: Int) {
 
     }
 
-    func tabBarControllerInitialIndex() -> Int {
+    var powerTabBarControllerInitialIndex: Int {
         return 0
     }
 
-    func tabBarControllerViewControllers() -> [PowerTabbableViewController] {
-        return [PowerSubTabBar(), PowerSubTabBar2(), PowerSubTabBar3()]
+    var powerTabBarControllerViewControllers: [PowerTabbableViewController] {
+        return [PowerSubTabBar(), PowerSubTabBar2()]
     }
 
-    func tabBarHeight() -> CGFloat {
+    var powerTabBarHeight: CGFloat {
         return 40
     }
 
-    func tabBarBackgroundColor() -> UIColor {
+    var powerTabBarBackgroundColor: UIColor {
         return .red
     }
 }
@@ -67,20 +61,6 @@ class PowerSubTabBar2: PowerTabbableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-    }
-
-    var powerTabBarItem: UITabBarItem {
-        let image = UIImage(named: "tabBarIcon", in: Bundle(for: type(of: self)), compatibleWith: nil)
-        let tabBarItem = UITabBarItem()
-        tabBarItem.image = image
-        return tabBarItem
-    }
-}
-
-class PowerSubTabBar3: PowerTabbableViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .red
     }
 
     var powerTabBarItem: UITabBarItem {
