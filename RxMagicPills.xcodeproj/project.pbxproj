@@ -19,6 +19,20 @@
 		F200833D2265E3D100AC6EE1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F200833C2265E3BD00AC6EE1 /* AppKit.framework */; };
 		F21EE3AB227745AE005CBF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23E36F8212191CD00A81C2A /* UIKit.framework */; };
 		F21EE3AC227745AF005CBF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23E36F8212191CD00A81C2A /* UIKit.framework */; };
+		F2688C5D2350B6AF0043FA21 /* ObservableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C5C2350B6AF0043FA21 /* ObservableBinding.swift */; };
+		F2688C5E2350B6AF0043FA21 /* ObservableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C5C2350B6AF0043FA21 /* ObservableBinding.swift */; };
+		F2688C5F2350B6AF0043FA21 /* ObservableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C5C2350B6AF0043FA21 /* ObservableBinding.swift */; };
+		F2688C602350B6AF0043FA21 /* ObservableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C5C2350B6AF0043FA21 /* ObservableBinding.swift */; };
+		F2688C622350B7F00043FA21 /* DisposableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C612350B7F00043FA21 /* DisposableBinding.swift */; };
+		F2688C632350B7F00043FA21 /* DisposableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C612350B7F00043FA21 /* DisposableBinding.swift */; };
+		F2688C642350B7F00043FA21 /* DisposableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C612350B7F00043FA21 /* DisposableBinding.swift */; };
+		F2688C652350B7F00043FA21 /* DisposableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C612350B7F00043FA21 /* DisposableBinding.swift */; };
+		F2688C682350C6320043FA21 /* ObservableBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C672350C6320043FA21 /* ObservableBindingTests.swift */; };
+		F2688C692350C6320043FA21 /* ObservableBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C672350C6320043FA21 /* ObservableBindingTests.swift */; };
+		F2688C6A2350C6320043FA21 /* ObservableBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C672350C6320043FA21 /* ObservableBindingTests.swift */; };
+		F2688C6C2350C6400043FA21 /* DisposableBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C6B2350C6400043FA21 /* DisposableBindingTests.swift */; };
+		F2688C6D2350C6400043FA21 /* DisposableBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C6B2350C6400043FA21 /* DisposableBindingTests.swift */; };
+		F2688C6E2350C6400043FA21 /* DisposableBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C6B2350C6400043FA21 /* DisposableBindingTests.swift */; };
 		F26C3AF822537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
 		F26C3AF922537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
 		F26C3AFA22537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
@@ -111,6 +125,10 @@
 		E281244E2122CC5B00E4F6D0 /* RxMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28C312021494B4300DE964B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F200833C2265E3BD00AC6EE1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		F2688C5C2350B6AF0043FA21 /* ObservableBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBinding.swift; sourceTree = "<group>"; };
+		F2688C612350B7F00043FA21 /* DisposableBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposableBinding.swift; sourceTree = "<group>"; };
+		F2688C672350C6320043FA21 /* ObservableBindingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBindingTests.swift; sourceTree = "<group>"; };
+		F2688C6B2350C6400043FA21 /* DisposableBindingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposableBindingTests.swift; sourceTree = "<group>"; };
 		F26C3AF722537A4600189D28 /* RxMagicPills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxMagicPills.swift; sourceTree = "<group>"; };
 		F29759BB234761A900C3805E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F2AC727D23460F9900661BE9 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
@@ -349,9 +367,28 @@
 			name = watchOS;
 			sourceTree = "<group>";
 		};
+		F2688C5B2350B68F0043FA21 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				F2688C5C2350B6AF0043FA21 /* ObservableBinding.swift */,
+				F2688C612350B7F00043FA21 /* DisposableBinding.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		F2688C662350C60A0043FA21 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				F2688C672350C6320043FA21 /* ObservableBindingTests.swift */,
+				F2688C6B2350C6400043FA21 /* DisposableBindingTests.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
 		F2AC72EB23463A0300661BE9 /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F2688C5B2350B68F0043FA21 /* Binding */,
 				F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */,
 			);
 			path = RxSwift;
@@ -360,6 +397,7 @@
 		F2AC72F123463A4500661BE9 /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F2688C662350C60A0043FA21 /* Binding */,
 				F2AC72F223463A5A00661BE9 /* ObservableTypeExtensionsTests.swift */,
 			);
 			path = RxSwift;
@@ -703,6 +741,8 @@
 			files = (
 				F2AC72ED23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F26C3AF822537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F2688C5D2350B6AF0043FA21 /* ObservableBinding.swift in Sources */,
+				F2688C622350B7F00043FA21 /* DisposableBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,6 +750,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2688C6C2350C6400043FA21 /* DisposableBindingTests.swift in Sources */,
+				F2688C682350C6320043FA21 /* ObservableBindingTests.swift in Sources */,
 				F2AC72F323463A5A00661BE9 /* ObservableTypeExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -720,6 +762,8 @@
 			files = (
 				F2AC72EE23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F26C3AF922537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F2688C5E2350B6AF0043FA21 /* ObservableBinding.swift in Sources */,
+				F2688C632350B7F00043FA21 /* DisposableBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +771,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2688C6D2350C6400043FA21 /* DisposableBindingTests.swift in Sources */,
+				F2688C692350C6320043FA21 /* ObservableBindingTests.swift in Sources */,
 				F2AC72F423463A5A00661BE9 /* ObservableTypeExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,6 +783,8 @@
 			files = (
 				F2AC72EF23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F26C3AFA22537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F2688C5F2350B6AF0043FA21 /* ObservableBinding.swift in Sources */,
+				F2688C642350B7F00043FA21 /* DisposableBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,6 +792,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2688C6E2350C6400043FA21 /* DisposableBindingTests.swift in Sources */,
+				F2688C6A2350C6320043FA21 /* ObservableBindingTests.swift in Sources */,
 				F2AC72F523463A5A00661BE9 /* ObservableTypeExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -754,6 +804,8 @@
 			files = (
 				F2AC72F023463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F26C3AFB22537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F2688C602350B6AF0043FA21 /* ObservableBinding.swift in Sources */,
+				F2688C652350B7F00043FA21 /* DisposableBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
