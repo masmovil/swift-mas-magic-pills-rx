@@ -3,7 +3,7 @@ import Foundation
 import RxSwift
 import RxMagicPills
 
-class ObservableTypeTests: XCTestCase {
+class ObservableTypeExtensionsTests: XCTestCase {
     private let disposeBag = DisposeBag()
 
     func test_subscribeOnNext() {
