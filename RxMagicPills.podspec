@@ -21,17 +21,17 @@ DESC
   s.ios.deployment_target = '11.0'
   s.ios.frameworks = 'UIKit'
   s.ios.dependency('RxCocoa', '~> 5')
-  s.ios.source_files  = 'Sources/RxSwift/**/*.swift', 'Sources/UIKit/**/*.swift'
+  s.ios.source_files = 'Sources/Protocols/**/*.swift', 'Sources/RxSwift/**/*.swift', 'Sources/UIKit/**/*.swift'
 
   s.osx.deployment_target = '10.13'
   s.osx.frameworks = 'AppKit'
-  s.osx.source_files  = 'Sources/RxSwift/**/*.swift'
+  s.osx.source_files = 'Sources/Protocols/**/*.swift', 'Sources/RxSwift/**/*.swift'
 
   s.watchos.deployment_target = '4.0'
   s.watchos.frameworks = 'UIKit', 'WatchKit'
-  s.watchos.source_files  = 'Sources/RxSwift/**/*.swift'
+  s.watchos.source_files = 'Sources/Protocols/**/*.swift', 'Sources/RxSwift/**/*.swift'
   
   s.tvos.deployment_target = '11.0'
   s.tvos.frameworks = 'UIKit'
-  s.tvos.source_files  = 'Sources/RxSwift/**/*.swift'
+  s.tvos.source_files = 'Sources/Protocols/**/*.swift', 'Sources/RxSwift/**/*.swift'
 end
