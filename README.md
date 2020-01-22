@@ -3,8 +3,8 @@ Set of powerful utilities for development in Swift related to RxSwift
 
 [![Release Version](https://img.shields.io/github/release/masmovil/swift-mas-magic-pills-rx.svg)](https://github.com/masmovil/swift-mas-magic-pills-rx/releases) 
 [![Release Date](https://img.shields.io/github/release-date/masmovil/swift-mas-magic-pills-rx.svg)](https://github.com/masmovil/swift-mas-magic-pills-rx/releases)
-[![Pod](https://img.shields.io/cocoapods/v/RxMagicPills.svg?style=flat)](https://cocoapods.org/pods/RxMagicPills)
-[![Platform](https://img.shields.io/cocoapods/p/RxMagicPills.svg?style=flat)](https://cocoapods.org/pods/RxMagicPills)
+[![Pod](https://img.shields.io/cocoapods/v/RxMasMagicPills.svg?style=flat)](https://cocoapods.org/pods/RxMasMagicPills)
+[![Platform](https://img.shields.io/cocoapods/p/RxMasMagicPills.svg?style=flat)](https://cocoapods.org/pods/RxMasMagicPills)
 [![GitHub](https://img.shields.io/github/license/masmovil/swift-mas-magic-pills-rx.svg)](https://github.com/masmovil/swift-mas-magic-pills-rx/blob/master/LICENSE)
 
 [![Build Status](https://travis-ci.com/masmovil/swift-mas-magic-pills-rx.svg?branch=master)](https://travis-ci.com/masmovil/swift-mas-magic-pills-rx)
