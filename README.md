@@ -1,4 +1,4 @@
-# Swift Magic Pills RX 💊
+# Swift Mas Magic Pills RX 💊
 Set of powerful utilities for development in Swift related to RxSwift
 
 [![Release Version](https://img.shields.io/github/release/bq/swift-magic-pills-rx.svg)](https://github.com/bq/swift-magic-pills-rx/releases) 

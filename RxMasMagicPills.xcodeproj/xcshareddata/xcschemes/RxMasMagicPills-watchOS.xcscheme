@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E26053ED212187FF00D013B5"
-               BuildableName = "RxMagicPills.framework"
-               BlueprintName = "RxMagicPills-iOS"
-               ReferencedContainer = "container:RxMagicPills.xcodeproj">
+               BlueprintIdentifier = "E281244D2122CC5B00E4F6D0"
+               BuildableName = "RxMasMagicPills.framework"
+               BlueprintName = "RxMasMagicPills-watchOS"
+               ReferencedContainer = "container:RxMasMagicPills.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,16 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E26053F62121880000D013B5"
-               BuildableName = "RxMagicPills-iOSTests.xctest"
-               BlueprintName = "RxMagicPills-iOSTests"
-               ReferencedContainer = "container:RxMagicPills.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -61,10 +51,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E26053ED212187FF00D013B5"
-            BuildableName = "RxMagicPills.framework"
-            BlueprintName = "RxMagicPills-iOS"
-            ReferencedContainer = "container:RxMagicPills.xcodeproj">
+            BlueprintIdentifier = "E281244D2122CC5B00E4F6D0"
+            BuildableName = "RxMasMagicPills.framework"
+            BlueprintName = "RxMasMagicPills-watchOS"
+            ReferencedContainer = "container:RxMasMagicPills.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

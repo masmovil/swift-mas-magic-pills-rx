@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E281244D2122CC5B00E4F6D0"
-               BuildableName = "RxMagicPills.framework"
-               BlueprintName = "RxMagicPills-watchOS"
-               ReferencedContainer = "container:RxMagicPills.xcodeproj">
+               BlueprintIdentifier = "E28124312122CC4C00E4F6D0"
+               BuildableName = "RxMasMagicPills.framework"
+               BlueprintName = "RxMasMagicPills-tvOS"
+               ReferencedContainer = "container:RxMasMagicPills.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E28124392122CC4C00E4F6D0"
+               BuildableName = "RxMasMagicPills-tvOSTests.xctest"
+               BlueprintName = "RxMasMagicPills-tvOSTests"
+               ReferencedContainer = "container:RxMasMagicPills.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -51,10 +61,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E281244D2122CC5B00E4F6D0"
-            BuildableName = "RxMagicPills.framework"
-            BlueprintName = "RxMagicPills-watchOS"
-            ReferencedContainer = "container:RxMagicPills.xcodeproj">
+            BlueprintIdentifier = "E28124312122CC4C00E4F6D0"
+            BuildableName = "RxMasMagicPills.framework"
+            BlueprintName = "RxMasMagicPills-tvOS"
+            ReferencedContainer = "container:RxMasMagicPills.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

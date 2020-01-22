@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'RxMagicPills'
+  s.name             = 'RxMasMagicPills'
   s.version          = '1.0.0'
   s.swift_version    = '5.0'
   s.summary          = 'Set of powerful utilities based on Rx 💊.'
@@ -10,13 +10,13 @@ DESC
 
   s.homepage         = 'https://github.com/bq/swift-magic-pills'
   s.license          = { :type => 'APACHE', :file => 'LICENSE' }
-  s.author           = { 'bq' => 'info@bq.com' }
-  s.source           = { :git => 'https://github.com/bq/swift-magic-pills.git', :tag => "v#{s.version.to_s}" }
-  #s.social_media_url = 'https://twitter.com/bqreaders'
+  s.authors          = { 'MásMóvil' => 'info@grupomasmovil.com' }
+  s.source           = { :git => 'https://github.com/masmovil/swift-mas-magic-pills-rx.git', :tag => "v#{s.version.to_s}" }
+  s.social_media_url = 'https://twitter.com/masmovil'
 
   s.frameworks = 'Foundation'
   s.dependency('RxSwift', '~> 5')
-  s.dependency('MagicPills')
+  s.dependency('MasMagicPills')
 
   s.ios.deployment_target = '11.0'
   s.ios.frameworks = 'UIKit'
