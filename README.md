@@ -37,4 +37,4 @@ github "masmovil/swift-mas-magic-pills-rx"
 
 ## License
 
-RxMagicPills is available under the Apache 2.0. See the LICENSE file for more info.
+RxMasMagicPills is available under the Apache 2.0. See the LICENSE file for more info.
