@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 Set of powerful utilities for development based on Rx in Swift (Support for iOS, tvOS and mac)
 DESC
 
-  s.homepage         = 'https://github.com/masmovil/swift-mas-magic-pills'
+  s.homepage         = 'https://github.com/masmovil/swift-mas-magic-pills-rx'
   s.license          = { :type => 'APACHE', :file => 'LICENSE' }
   s.authors          = { 'MásMóvil' => 'info@grupomasmovil.com' }
   s.source           = { :git => 'https://github.com/masmovil/swift-mas-magic-pills-rx.git', :tag => "v#{s.version.to_s}" }
