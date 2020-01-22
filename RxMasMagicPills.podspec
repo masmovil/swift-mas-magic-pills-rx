@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RxMasMagicPills'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.swift_version    = '5.0'
   s.summary          = 'Set of powerful utilities based on Rx 💊.'
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 Set of powerful utilities for development based on Rx in Swift (Support for iOS, tvOS and mac)
 DESC
 
-  s.homepage         = 'https://github.com/bq/swift-magic-pills'
+  s.homepage         = 'https://github.com/masmovil/swift-mas-magic-pills'
   s.license          = { :type => 'APACHE', :file => 'LICENSE' }
   s.authors          = { 'MásMóvil' => 'info@grupomasmovil.com' }
   s.source           = { :git => 'https://github.com/masmovil/swift-mas-magic-pills-rx.git', :tag => "v#{s.version.to_s}" }
