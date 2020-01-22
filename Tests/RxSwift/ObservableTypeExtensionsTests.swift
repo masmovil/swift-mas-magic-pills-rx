@@ -1,7 +1,7 @@
 import XCTest
 import Foundation
 import RxSwift
-import RxMagicPills
+import RxMasMagicPills
 
 class ObservableTypeExtensionsTests: XCTestCase {
     private let disposeBag = DisposeBag()

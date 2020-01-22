@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E23E36F9212191CE00A81C2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23E36F8212191CD00A81C2A /* UIKit.framework */; };
-		E26053F82121880000D013B5 /* RxMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26053EE212187FF00D013B5 /* RxMagicPills.framework */; };
-		E26053FF2121880000D013B5 /* RxMagicPills.h in Headers */ = {isa = PBXBuildFile; fileRef = E26053F12121880000D013B5 /* RxMagicPills.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E28123E02122C2CB00E4F6D0 /* RxMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28123D72122C2CB00E4F6D0 /* RxMagicPills.framework */; };
-		E28123EE2122C36600E4F6D0 /* RxMagicPills.h in Headers */ = {isa = PBXBuildFile; fileRef = E26053F12121880000D013B5 /* RxMagicPills.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E281243B2122CC4C00E4F6D0 /* RxMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28124322122CC4C00E4F6D0 /* RxMagicPills.framework */; };
-		E28124562122CCE300E4F6D0 /* RxMagicPills.h in Headers */ = {isa = PBXBuildFile; fileRef = E26053F12121880000D013B5 /* RxMagicPills.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E28124572122CCE300E4F6D0 /* RxMagicPills.h in Headers */ = {isa = PBXBuildFile; fileRef = E26053F12121880000D013B5 /* RxMagicPills.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E26053F82121880000D013B5 /* RxMasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26053EE212187FF00D013B5 /* RxMasMagicPills.framework */; };
+		E26053FF2121880000D013B5 /* RxMasMagicPills.h in Headers */ = {isa = PBXBuildFile; fileRef = E26053F12121880000D013B5 /* RxMasMagicPills.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E28123E02122C2CB00E4F6D0 /* RxMasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28123D72122C2CB00E4F6D0 /* RxMasMagicPills.framework */; };
+		E28123EE2122C36600E4F6D0 /* RxMasMagicPills.h in Headers */ = {isa = PBXBuildFile; fileRef = E26053F12121880000D013B5 /* RxMasMagicPills.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E281243B2122CC4C00E4F6D0 /* RxMasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28124322122CC4C00E4F6D0 /* RxMasMagicPills.framework */; };
+		E28124562122CCE300E4F6D0 /* RxMasMagicPills.h in Headers */ = {isa = PBXBuildFile; fileRef = E26053F12121880000D013B5 /* RxMasMagicPills.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E28124572122CCE300E4F6D0 /* RxMasMagicPills.h in Headers */ = {isa = PBXBuildFile; fileRef = E26053F12121880000D013B5 /* RxMasMagicPills.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E28C312621494B7E00DE964B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28C312021494B4300DE964B /* SystemConfiguration.framework */; };
 		F200833D2265E3D100AC6EE1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F200833C2265E3BD00AC6EE1 /* AppKit.framework */; };
 		F21EE3AB227745AE005CBF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23E36F8212191CD00A81C2A /* UIKit.framework */; };
@@ -30,10 +30,10 @@
 		F2688C942354BB9D0043FA21 /* ObservableConvertibleTypeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C932354BB9D0043FA21 /* ObservableConvertibleTypeExtensionsTests.swift */; };
 		F2688C952354BB9D0043FA21 /* ObservableConvertibleTypeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C932354BB9D0043FA21 /* ObservableConvertibleTypeExtensionsTests.swift */; };
 		F2688C962354BB9D0043FA21 /* ObservableConvertibleTypeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C932354BB9D0043FA21 /* ObservableConvertibleTypeExtensionsTests.swift */; };
-		F26C3AF822537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
-		F26C3AF922537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
-		F26C3AFA22537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
-		F26C3AFB22537A4600189D28 /* RxMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMagicPills.swift */; };
+		F26C3AF822537A4600189D28 /* RxMasMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMasMagicPills.swift */; };
+		F26C3AF922537A4600189D28 /* RxMasMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMasMagicPills.swift */; };
+		F26C3AFA22537A4600189D28 /* RxMasMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMasMagicPills.swift */; };
+		F26C3AFB22537A4600189D28 /* RxMasMagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* RxMasMagicPills.swift */; };
 		F29759BC234761A900C3805E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29759BB234761A900C3805E /* Media.xcassets */; };
 		F29759BD234761A900C3805E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29759BB234761A900C3805E /* Media.xcassets */; };
 		F29759BE234761A900C3805E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29759BB234761A900C3805E /* Media.xcassets */; };
@@ -41,8 +41,8 @@
 		F2AC728323460F9900661BE9 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727D23460F9900661BE9 /* RxRelay.framework */; };
 		F2AC728423460F9900661BE9 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727E23460F9900661BE9 /* RxBlocking.framework */; };
 		F2AC728523460F9900661BE9 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727E23460F9900661BE9 /* RxBlocking.framework */; };
-		F2AC728623460F9900661BE9 /* MagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727F23460F9900661BE9 /* MagicPills.framework */; };
-		F2AC728723460F9900661BE9 /* MagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727F23460F9900661BE9 /* MagicPills.framework */; };
+		F2AC728623460F9900661BE9 /* MasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727F23460F9900661BE9 /* MasMagicPills.framework */; };
+		F2AC728723460F9900661BE9 /* MasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC727F23460F9900661BE9 /* MasMagicPills.framework */; };
 		F2AC728823460F9900661BE9 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728023460F9900661BE9 /* RxSwift.framework */; };
 		F2AC728923460F9900661BE9 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728023460F9900661BE9 /* RxSwift.framework */; };
 		F2AC728A23460F9900661BE9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728123460F9900661BE9 /* RxCocoa.framework */; };
@@ -50,8 +50,8 @@
 		F2AC729323460FAF00661BE9 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728C23460FAE00661BE9 /* RxTest.framework */; };
 		F2AC729423460FAF00661BE9 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728D23460FAE00661BE9 /* RxSwift.framework */; };
 		F2AC729523460FAF00661BE9 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728D23460FAE00661BE9 /* RxSwift.framework */; };
-		F2AC729623460FAF00661BE9 /* MagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728E23460FAF00661BE9 /* MagicPills.framework */; };
-		F2AC729723460FAF00661BE9 /* MagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728E23460FAF00661BE9 /* MagicPills.framework */; };
+		F2AC729623460FAF00661BE9 /* MasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728E23460FAF00661BE9 /* MasMagicPills.framework */; };
+		F2AC729723460FAF00661BE9 /* MasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728E23460FAF00661BE9 /* MasMagicPills.framework */; };
 		F2AC729823460FAF00661BE9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728F23460FAF00661BE9 /* RxCocoa.framework */; };
 		F2AC729923460FAF00661BE9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC728F23460FAF00661BE9 /* RxCocoa.framework */; };
 		F2AC729A23460FAF00661BE9 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC729023460FAF00661BE9 /* RxRelay.framework */; };
@@ -64,15 +64,15 @@
 		F2AC72A823460FE600661BE9 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A123460FE600661BE9 /* RxSwift.framework */; };
 		F2AC72A923460FE600661BE9 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A123460FE600661BE9 /* RxSwift.framework */; };
 		F2AC72AB23460FE600661BE9 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A223460FE600661BE9 /* RxTest.framework */; };
-		F2AC72AC23460FE600661BE9 /* MagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A323460FE600661BE9 /* MagicPills.framework */; };
-		F2AC72AD23460FE600661BE9 /* MagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A323460FE600661BE9 /* MagicPills.framework */; };
+		F2AC72AC23460FE600661BE9 /* MasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A323460FE600661BE9 /* MasMagicPills.framework */; };
+		F2AC72AD23460FE600661BE9 /* MasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A323460FE600661BE9 /* MasMagicPills.framework */; };
 		F2AC72AE23460FE600661BE9 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A423460FE600661BE9 /* RxRelay.framework */; };
 		F2AC72AF23460FE600661BE9 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A423460FE600661BE9 /* RxRelay.framework */; };
 		F2AC72B023460FE600661BE9 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A523460FE600661BE9 /* RxBlocking.framework */; };
 		F2AC72B123460FE600661BE9 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72A523460FE600661BE9 /* RxBlocking.framework */; };
 		F2AC72B723460FFB00661BE9 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72B223460FFB00661BE9 /* RxSwift.framework */; };
 		F2AC72B823460FFB00661BE9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72B323460FFB00661BE9 /* RxCocoa.framework */; };
-		F2AC72B923460FFB00661BE9 /* MagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72B423460FFB00661BE9 /* MagicPills.framework */; };
+		F2AC72B923460FFB00661BE9 /* MasMagicPills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72B423460FFB00661BE9 /* MasMagicPills.framework */; };
 		F2AC72BA23460FFB00661BE9 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72B523460FFB00661BE9 /* RxBlocking.framework */; };
 		F2AC72BB23460FFB00661BE9 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC72B623460FFB00661BE9 /* RxRelay.framework */; };
 		F2AC72ED23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */; };
@@ -110,31 +110,31 @@
 
 /* Begin PBXFileReference section */
 		E23E36F8212191CD00A81C2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E26053EE212187FF00D013B5 /* RxMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E26053F12121880000D013B5 /* RxMagicPills.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxMagicPills.h; sourceTree = "<group>"; };
+		E26053EE212187FF00D013B5 /* RxMasMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMasMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26053F12121880000D013B5 /* RxMasMagicPills.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxMasMagicPills.h; sourceTree = "<group>"; };
 		E26053F22121880000D013B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E26053F72121880000D013B5 /* RxMagicPills-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMagicPills-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26053F72121880000D013B5 /* RxMasMagicPills-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMasMagicPills-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26053FE2121880000D013B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E28123D72122C2CB00E4F6D0 /* RxMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E28123DF2122C2CB00E4F6D0 /* RxMagicPills-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMagicPills-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E28124322122CC4C00E4F6D0 /* RxMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E281243A2122CC4C00E4F6D0 /* RxMagicPills-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMagicPills-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E281244E2122CC5B00E4F6D0 /* RxMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28123D72122C2CB00E4F6D0 /* RxMasMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMasMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28123DF2122C2CB00E4F6D0 /* RxMasMagicPills-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMasMagicPills-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28124322122CC4C00E4F6D0 /* RxMasMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMasMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E281243A2122CC4C00E4F6D0 /* RxMasMagicPills-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMasMagicPills-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E281244E2122CC5B00E4F6D0 /* RxMasMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMasMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28C312021494B4300DE964B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F200833C2265E3BD00AC6EE1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		F2688C8523549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableConvertibleTypeExtensions.swift; sourceTree = "<group>"; };
 		F2688C8E2354BB510043FA21 /* DisposableContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposableContainer.swift; sourceTree = "<group>"; };
 		F2688C932354BB9D0043FA21 /* ObservableConvertibleTypeExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableConvertibleTypeExtensionsTests.swift; sourceTree = "<group>"; };
-		F26C3AF722537A4600189D28 /* RxMagicPills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxMagicPills.swift; sourceTree = "<group>"; };
+		F26C3AF722537A4600189D28 /* RxMasMagicPills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxMasMagicPills.swift; sourceTree = "<group>"; };
 		F29759BB234761A900C3805E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F2AC727D23460F9900661BE9 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 		F2AC727E23460F9900661BE9 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		F2AC727F23460F9900661BE9 /* MagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicPills.framework; path = Carthage/Build/iOS/MagicPills.framework; sourceTree = "<group>"; };
+		F2AC727F23460F9900661BE9 /* MasMagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MasMagicPills.framework; path = Carthage/Build/iOS/MasMagicPills.framework; sourceTree = "<group>"; };
 		F2AC728023460F9900661BE9 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		F2AC728123460F9900661BE9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		F2AC728C23460FAE00661BE9 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/Mac/RxTest.framework; sourceTree = "<group>"; };
 		F2AC728D23460FAE00661BE9 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
-		F2AC728E23460FAF00661BE9 /* MagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicPills.framework; path = Carthage/Build/Mac/MagicPills.framework; sourceTree = "<group>"; };
+		F2AC728E23460FAF00661BE9 /* MasMagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MasMagicPills.framework; path = Carthage/Build/Mac/MasMagicPills.framework; sourceTree = "<group>"; };
 		F2AC728F23460FAF00661BE9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
 		F2AC729023460FAF00661BE9 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/Mac/RxRelay.framework; sourceTree = "<group>"; };
 		F2AC729123460FAF00661BE9 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/Mac/RxBlocking.framework; sourceTree = "<group>"; };
@@ -142,12 +142,12 @@
 		F2AC72A023460FE600661BE9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
 		F2AC72A123460FE600661BE9 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 		F2AC72A223460FE600661BE9 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/tvOS/RxTest.framework; sourceTree = "<group>"; };
-		F2AC72A323460FE600661BE9 /* MagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicPills.framework; path = Carthage/Build/tvOS/MagicPills.framework; sourceTree = "<group>"; };
+		F2AC72A323460FE600661BE9 /* MasMagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MasMagicPills.framework; path = Carthage/Build/tvOS/MasMagicPills.framework; sourceTree = "<group>"; };
 		F2AC72A423460FE600661BE9 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/tvOS/RxRelay.framework; sourceTree = "<group>"; };
 		F2AC72A523460FE600661BE9 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/tvOS/RxBlocking.framework; sourceTree = "<group>"; };
 		F2AC72B223460FFB00661BE9 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/watchOS/RxSwift.framework; sourceTree = "<group>"; };
 		F2AC72B323460FFB00661BE9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/watchOS/RxCocoa.framework; sourceTree = "<group>"; };
-		F2AC72B423460FFB00661BE9 /* MagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicPills.framework; path = Carthage/Build/watchOS/MagicPills.framework; sourceTree = "<group>"; };
+		F2AC72B423460FFB00661BE9 /* MasMagicPills.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MasMagicPills.framework; path = Carthage/Build/watchOS/MasMagicPills.framework; sourceTree = "<group>"; };
 		F2AC72B523460FFB00661BE9 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/watchOS/RxBlocking.framework; sourceTree = "<group>"; };
 		F2AC72B623460FFB00661BE9 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/watchOS/RxRelay.framework; sourceTree = "<group>"; };
 		F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTypeExtensions.swift; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 				F2AC728A23460F9900661BE9 /* RxCocoa.framework in Frameworks */,
 				F2AC728823460F9900661BE9 /* RxSwift.framework in Frameworks */,
 				F2AC728223460F9900661BE9 /* RxRelay.framework in Frameworks */,
-				F2AC728623460F9900661BE9 /* MagicPills.framework in Frameworks */,
+				F2AC728623460F9900661BE9 /* MasMagicPills.framework in Frameworks */,
 				F2AC728423460F9900661BE9 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,8 +177,8 @@
 				F2AC728B23460F9900661BE9 /* RxCocoa.framework in Frameworks */,
 				F2AC728923460F9900661BE9 /* RxSwift.framework in Frameworks */,
 				F2AC728323460F9900661BE9 /* RxRelay.framework in Frameworks */,
-				F2AC728723460F9900661BE9 /* MagicPills.framework in Frameworks */,
-				E26053F82121880000D013B5 /* RxMagicPills.framework in Frameworks */,
+				F2AC728723460F9900661BE9 /* MasMagicPills.framework in Frameworks */,
+				E26053F82121880000D013B5 /* RxMasMagicPills.framework in Frameworks */,
 				F2AC728523460F9900661BE9 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,7 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AC729C23460FAF00661BE9 /* RxBlocking.framework in Frameworks */,
-				F2AC729623460FAF00661BE9 /* MagicPills.framework in Frameworks */,
+				F2AC729623460FAF00661BE9 /* MasMagicPills.framework in Frameworks */,
 				F2AC729A23460FAF00661BE9 /* RxRelay.framework in Frameworks */,
 				F200833D2265E3D100AC6EE1 /* AppKit.framework in Frameworks */,
 				F2AC729823460FAF00661BE9 /* RxCocoa.framework in Frameworks */,
@@ -202,9 +202,9 @@
 			files = (
 				F2AC729D23460FAF00661BE9 /* RxBlocking.framework in Frameworks */,
 				F2AC729323460FAF00661BE9 /* RxTest.framework in Frameworks */,
-				F2AC729723460FAF00661BE9 /* MagicPills.framework in Frameworks */,
+				F2AC729723460FAF00661BE9 /* MasMagicPills.framework in Frameworks */,
 				F2AC729B23460FAF00661BE9 /* RxRelay.framework in Frameworks */,
-				E28123E02122C2CB00E4F6D0 /* RxMagicPills.framework in Frameworks */,
+				E28123E02122C2CB00E4F6D0 /* RxMasMagicPills.framework in Frameworks */,
 				F2AC729923460FAF00661BE9 /* RxCocoa.framework in Frameworks */,
 				F2AC729523460FAF00661BE9 /* RxSwift.framework in Frameworks */,
 			);
@@ -218,7 +218,7 @@
 				F2AC72A623460FE600661BE9 /* RxCocoa.framework in Frameworks */,
 				F21EE3AC227745AF005CBF77 /* UIKit.framework in Frameworks */,
 				F2AC72AE23460FE600661BE9 /* RxRelay.framework in Frameworks */,
-				F2AC72AC23460FE600661BE9 /* MagicPills.framework in Frameworks */,
+				F2AC72AC23460FE600661BE9 /* MasMagicPills.framework in Frameworks */,
 				F2AC72A823460FE600661BE9 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,10 +229,10 @@
 			files = (
 				F2AC72B123460FE600661BE9 /* RxBlocking.framework in Frameworks */,
 				F2AC72A723460FE600661BE9 /* RxCocoa.framework in Frameworks */,
-				E281243B2122CC4C00E4F6D0 /* RxMagicPills.framework in Frameworks */,
+				E281243B2122CC4C00E4F6D0 /* RxMasMagicPills.framework in Frameworks */,
 				F2AC72AF23460FE600661BE9 /* RxRelay.framework in Frameworks */,
 				F2AC72AB23460FE600661BE9 /* RxTest.framework in Frameworks */,
-				F2AC72AD23460FE600661BE9 /* MagicPills.framework in Frameworks */,
+				F2AC72AD23460FE600661BE9 /* MasMagicPills.framework in Frameworks */,
 				F2AC72A923460FE600661BE9 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,7 +244,7 @@
 				F2AC72B823460FFB00661BE9 /* RxCocoa.framework in Frameworks */,
 				F2AC72BA23460FFB00661BE9 /* RxBlocking.framework in Frameworks */,
 				F2AC72BB23460FFB00661BE9 /* RxRelay.framework in Frameworks */,
-				F2AC72B923460FFB00661BE9 /* MagicPills.framework in Frameworks */,
+				F2AC72B923460FFB00661BE9 /* MasMagicPills.framework in Frameworks */,
 				F2AC72B723460FFB00661BE9 /* RxSwift.framework in Frameworks */,
 				F21EE3AB227745AE005CBF77 /* UIKit.framework in Frameworks */,
 			);
@@ -266,13 +266,13 @@
 		E26053EF212187FF00D013B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E26053EE212187FF00D013B5 /* RxMagicPills.framework */,
-				E26053F72121880000D013B5 /* RxMagicPills-iOSTests.xctest */,
-				E28123D72122C2CB00E4F6D0 /* RxMagicPills.framework */,
-				E28123DF2122C2CB00E4F6D0 /* RxMagicPills-macOSTests.xctest */,
-				E28124322122CC4C00E4F6D0 /* RxMagicPills.framework */,
-				E281243A2122CC4C00E4F6D0 /* RxMagicPills-tvOSTests.xctest */,
-				E281244E2122CC5B00E4F6D0 /* RxMagicPills.framework */,
+				E26053EE212187FF00D013B5 /* RxMasMagicPills.framework */,
+				E26053F72121880000D013B5 /* RxMasMagicPills-iOSTests.xctest */,
+				E28123D72122C2CB00E4F6D0 /* RxMasMagicPills.framework */,
+				E28123DF2122C2CB00E4F6D0 /* RxMasMagicPills-macOSTests.xctest */,
+				E28124322122CC4C00E4F6D0 /* RxMasMagicPills.framework */,
+				E281243A2122CC4C00E4F6D0 /* RxMasMagicPills-tvOSTests.xctest */,
+				E281244E2122CC5B00E4F6D0 /* RxMasMagicPills.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -282,8 +282,8 @@
 			children = (
 				F2688C8A2354AB720043FA21 /* Protocols */,
 				F2AC72EB23463A0300661BE9 /* RxSwift */,
-				F26C3AF722537A4600189D28 /* RxMagicPills.swift */,
-				E26053F12121880000D013B5 /* RxMagicPills.h */,
+				F26C3AF722537A4600189D28 /* RxMasMagicPills.swift */,
+				E26053F12121880000D013B5 /* RxMasMagicPills.h */,
 				E26053F22121880000D013B5 /* Info.plist */,
 			);
 			path = Sources;
@@ -302,7 +302,7 @@
 		E260546121218DE800D013B5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F2AC727F23460F9900661BE9 /* MagicPills.framework */,
+				F2AC727F23460F9900661BE9 /* MasMagicPills.framework */,
 				F2AC727E23460F9900661BE9 /* RxBlocking.framework */,
 				F2AC728123460F9900661BE9 /* RxCocoa.framework */,
 				F2AC727D23460F9900661BE9 /* RxRelay.framework */,
@@ -328,7 +328,7 @@
 		E281245A2122CD2F00E4F6D0 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				F2AC728E23460FAF00661BE9 /* MagicPills.framework */,
+				F2AC728E23460FAF00661BE9 /* MasMagicPills.framework */,
 				F2AC729123460FAF00661BE9 /* RxBlocking.framework */,
 				F2AC728F23460FAF00661BE9 /* RxCocoa.framework */,
 				F2AC729023460FAF00661BE9 /* RxRelay.framework */,
@@ -342,7 +342,7 @@
 		E281245B2122CD3600E4F6D0 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				F2AC72A323460FE600661BE9 /* MagicPills.framework */,
+				F2AC72A323460FE600661BE9 /* MasMagicPills.framework */,
 				F2AC72A523460FE600661BE9 /* RxBlocking.framework */,
 				F2AC72A023460FE600661BE9 /* RxCocoa.framework */,
 				F2AC72A423460FE600661BE9 /* RxRelay.framework */,
@@ -355,7 +355,7 @@
 		E2FE59D72122CD9700A38D7A /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				F2AC72B423460FFB00661BE9 /* MagicPills.framework */,
+				F2AC72B423460FFB00661BE9 /* MasMagicPills.framework */,
 				F2AC72B523460FFB00661BE9 /* RxBlocking.framework */,
 				F2AC72B323460FFB00661BE9 /* RxCocoa.framework */,
 				F2AC72B623460FFB00661BE9 /* RxRelay.framework */,
@@ -397,7 +397,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26053FF2121880000D013B5 /* RxMagicPills.h in Headers */,
+				E26053FF2121880000D013B5 /* RxMasMagicPills.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +405,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E28123EE2122C36600E4F6D0 /* RxMagicPills.h in Headers */,
+				E28123EE2122C36600E4F6D0 /* RxMasMagicPills.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +413,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E28124562122CCE300E4F6D0 /* RxMagicPills.h in Headers */,
+				E28124562122CCE300E4F6D0 /* RxMasMagicPills.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,16 +421,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E28124572122CCE300E4F6D0 /* RxMagicPills.h in Headers */,
+				E28124572122CCE300E4F6D0 /* RxMasMagicPills.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E26053ED212187FF00D013B5 /* RxMagicPills-iOS */ = {
+		E26053ED212187FF00D013B5 /* RxMasMagicPills-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E26054022121880000D013B5 /* Build configuration list for PBXNativeTarget "RxMagicPills-iOS" */;
+			buildConfigurationList = E26054022121880000D013B5 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-iOS" */;
 			buildPhases = (
 				E260540821218AF400D013B5 /* Swiftlint */,
 				E26053E9212187FF00D013B5 /* Sources */,
@@ -442,14 +442,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxMagicPills-iOS";
+			name = "RxMasMagicPills-iOS";
 			productName = MagicPills;
-			productReference = E26053EE212187FF00D013B5 /* RxMagicPills.framework */;
+			productReference = E26053EE212187FF00D013B5 /* RxMasMagicPills.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E26053F62121880000D013B5 /* RxMagicPills-iOSTests */ = {
+		E26053F62121880000D013B5 /* RxMasMagicPills-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E26054052121880000D013B5 /* Build configuration list for PBXNativeTarget "RxMagicPills-iOSTests" */;
+			buildConfigurationList = E26054052121880000D013B5 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-iOSTests" */;
 			buildPhases = (
 				E26053F32121880000D013B5 /* Sources */,
 				E26053F42121880000D013B5 /* Frameworks */,
@@ -460,14 +460,14 @@
 			dependencies = (
 				E26053FA2121880000D013B5 /* PBXTargetDependency */,
 			);
-			name = "RxMagicPills-iOSTests";
+			name = "RxMasMagicPills-iOSTests";
 			productName = MagicPillsTests;
-			productReference = E26053F72121880000D013B5 /* RxMagicPills-iOSTests.xctest */;
+			productReference = E26053F72121880000D013B5 /* RxMasMagicPills-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E28123D62122C2CB00E4F6D0 /* RxMagicPills-macOS */ = {
+		E28123D62122C2CB00E4F6D0 /* RxMasMagicPills-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E28123EC2122C2CB00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-macOS" */;
+			buildConfigurationList = E28123EC2122C2CB00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-macOS" */;
 			buildPhases = (
 				E20BA60521389BE0005BA13B /* Swiftlint */,
 				E28123D22122C2CB00E4F6D0 /* Sources */,
@@ -479,14 +479,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxMagicPills-macOS";
+			name = "RxMasMagicPills-macOS";
 			productName = "MagicPills-macOS";
-			productReference = E28123D72122C2CB00E4F6D0 /* RxMagicPills.framework */;
+			productReference = E28123D72122C2CB00E4F6D0 /* RxMasMagicPills.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E28123DE2122C2CB00E4F6D0 /* RxMagicPills-macOSTests */ = {
+		E28123DE2122C2CB00E4F6D0 /* RxMasMagicPills-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E28123ED2122C2CB00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-macOSTests" */;
+			buildConfigurationList = E28123ED2122C2CB00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-macOSTests" */;
 			buildPhases = (
 				E28123DB2122C2CB00E4F6D0 /* Sources */,
 				E28123DC2122C2CB00E4F6D0 /* Frameworks */,
@@ -497,14 +497,14 @@
 			dependencies = (
 				E28123E22122C2CB00E4F6D0 /* PBXTargetDependency */,
 			);
-			name = "RxMagicPills-macOSTests";
+			name = "RxMasMagicPills-macOSTests";
 			productName = "MagicPills-macOSTests";
-			productReference = E28123DF2122C2CB00E4F6D0 /* RxMagicPills-macOSTests.xctest */;
+			productReference = E28123DF2122C2CB00E4F6D0 /* RxMasMagicPills-macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E28124312122CC4C00E4F6D0 /* RxMagicPills-tvOS */ = {
+		E28124312122CC4C00E4F6D0 /* RxMasMagicPills-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E28124432122CC4C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-tvOS" */;
+			buildConfigurationList = E28124432122CC4C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-tvOS" */;
 			buildPhases = (
 				E20BA60621389BF7005BA13B /* Swiftlint */,
 				E281242D2122CC4C00E4F6D0 /* Sources */,
@@ -516,14 +516,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxMagicPills-tvOS";
+			name = "RxMasMagicPills-tvOS";
 			productName = "MagicPills-tvOS";
-			productReference = E28124322122CC4C00E4F6D0 /* RxMagicPills.framework */;
+			productReference = E28124322122CC4C00E4F6D0 /* RxMasMagicPills.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E28124392122CC4C00E4F6D0 /* RxMagicPills-tvOSTests */ = {
+		E28124392122CC4C00E4F6D0 /* RxMasMagicPills-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E28124462122CC4C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-tvOSTests" */;
+			buildConfigurationList = E28124462122CC4C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-tvOSTests" */;
 			buildPhases = (
 				E28124362122CC4C00E4F6D0 /* Sources */,
 				E28124372122CC4C00E4F6D0 /* Frameworks */,
@@ -534,14 +534,14 @@
 			dependencies = (
 				E281243D2122CC4C00E4F6D0 /* PBXTargetDependency */,
 			);
-			name = "RxMagicPills-tvOSTests";
+			name = "RxMasMagicPills-tvOSTests";
 			productName = "MagicPills-tvOSTests";
-			productReference = E281243A2122CC4C00E4F6D0 /* RxMagicPills-tvOSTests.xctest */;
+			productReference = E281243A2122CC4C00E4F6D0 /* RxMasMagicPills-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E281244D2122CC5B00E4F6D0 /* RxMagicPills-watchOS */ = {
+		E281244D2122CC5B00E4F6D0 /* RxMasMagicPills-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E28124532122CC5C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-watchOS" */;
+			buildConfigurationList = E28124532122CC5C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-watchOS" */;
 			buildPhases = (
 				E28124492122CC5B00E4F6D0 /* Sources */,
 				E281244A2122CC5B00E4F6D0 /* Frameworks */,
@@ -552,9 +552,9 @@
 			);
 			dependencies = (
 			);
-			name = "RxMagicPills-watchOS";
+			name = "RxMasMagicPills-watchOS";
 			productName = "MagicPills-watchOS";
-			productReference = E281244E2122CC5B00E4F6D0 /* RxMagicPills.framework */;
+			productReference = E281244E2122CC5B00E4F6D0 /* RxMasMagicPills.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -597,7 +597,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E26053E8212187FF00D013B5 /* Build configuration list for PBXProject "RxMagicPills" */;
+			buildConfigurationList = E26053E8212187FF00D013B5 /* Build configuration list for PBXProject "RxMasMagicPills" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -610,13 +610,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E26053ED212187FF00D013B5 /* RxMagicPills-iOS */,
-				E26053F62121880000D013B5 /* RxMagicPills-iOSTests */,
-				E28123D62122C2CB00E4F6D0 /* RxMagicPills-macOS */,
-				E28123DE2122C2CB00E4F6D0 /* RxMagicPills-macOSTests */,
-				E28124312122CC4C00E4F6D0 /* RxMagicPills-tvOS */,
-				E28124392122CC4C00E4F6D0 /* RxMagicPills-tvOSTests */,
-				E281244D2122CC5B00E4F6D0 /* RxMagicPills-watchOS */,
+				E26053ED212187FF00D013B5 /* RxMasMagicPills-iOS */,
+				E26053F62121880000D013B5 /* RxMasMagicPills-iOSTests */,
+				E28123D62122C2CB00E4F6D0 /* RxMasMagicPills-macOS */,
+				E28123DE2122C2CB00E4F6D0 /* RxMasMagicPills-macOSTests */,
+				E28124312122CC4C00E4F6D0 /* RxMasMagicPills-tvOS */,
+				E28124392122CC4C00E4F6D0 /* RxMasMagicPills-tvOSTests */,
+				E281244D2122CC5B00E4F6D0 /* RxMasMagicPills-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -729,7 +729,7 @@
 				F2AC72ED23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F2688C8F2354BB510043FA21 /* DisposableContainer.swift in Sources */,
 				F2688C8623549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */,
-				F26C3AF822537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F26C3AF822537A4600189D28 /* RxMasMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,7 +749,7 @@
 				F2AC72EE23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F2688C912354BB7D0043FA21 /* DisposableContainer.swift in Sources */,
 				F2688C8723549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */,
-				F26C3AF922537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F26C3AF922537A4600189D28 /* RxMasMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,7 +769,7 @@
 				F2AC72EF23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F2688C902354BB510043FA21 /* DisposableContainer.swift in Sources */,
 				F2688C8823549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */,
-				F26C3AFA22537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F26C3AFA22537A4600189D28 /* RxMasMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,7 +789,7 @@
 				F2AC72F023463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F2688C922354BB7E0043FA21 /* DisposableContainer.swift in Sources */,
 				F2688C8923549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */,
-				F26C3AFB22537A4600189D28 /* RxMagicPills.swift in Sources */,
+				F26C3AFB22537A4600189D28 /* RxMasMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -798,17 +798,17 @@
 /* Begin PBXTargetDependency section */
 		E26053FA2121880000D013B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E26053ED212187FF00D013B5 /* RxMagicPills-iOS */;
+			target = E26053ED212187FF00D013B5 /* RxMasMagicPills-iOS */;
 			targetProxy = E26053F92121880000D013B5 /* PBXContainerItemProxy */;
 		};
 		E28123E22122C2CB00E4F6D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E28123D62122C2CB00E4F6D0 /* RxMagicPills-macOS */;
+			target = E28123D62122C2CB00E4F6D0 /* RxMasMagicPills-macOS */;
 			targetProxy = E28123E12122C2CB00E4F6D0 /* PBXContainerItemProxy */;
 		};
 		E281243D2122CC4C00E4F6D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E28124312122CC4C00E4F6D0 /* RxMagicPills-tvOS */;
+			target = E28124312122CC4C00E4F6D0 /* RxMasMagicPills-tvOS */;
 			targetProxy = E281243C2122CC4C00E4F6D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -870,7 +870,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = RxMagicPills;
+				PRODUCT_NAME = RxMasMagicPills;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -931,7 +931,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RxMagicPills;
+				PRODUCT_NAME = RxMasMagicPills;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -966,7 +966,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPills;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPills;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -997,7 +997,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPills;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPills;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1023,7 +1023,7 @@
 					"@loader_path/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPillsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPillsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1049,7 +1049,7 @@
 					"@loader_path/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPillsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPillsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1079,7 +1079,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPills;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPills;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1110,7 +1110,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPills;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPills;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1136,7 +1136,7 @@
 					"@loader_path/../Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPillsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPillsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1163,7 +1163,7 @@
 					"@loader_path/../Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPillsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPillsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -1192,7 +1192,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPills;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPills;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1224,7 +1224,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPills;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPills;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1252,7 +1252,7 @@
 					"@loader_path/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPillsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPillsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -1280,7 +1280,7 @@
 					"@loader_path/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPillsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPillsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -1311,7 +1311,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPills;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPills;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1342,7 +1342,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.RxMagicPills;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masmovil.RxMasMagicPills;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1353,7 +1353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E26053E8212187FF00D013B5 /* Build configuration list for PBXProject "RxMagicPills" */ = {
+		E26053E8212187FF00D013B5 /* Build configuration list for PBXProject "RxMasMagicPills" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E26054002121880000D013B5 /* Debug */,
@@ -1362,7 +1362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E26054022121880000D013B5 /* Build configuration list for PBXNativeTarget "RxMagicPills-iOS" */ = {
+		E26054022121880000D013B5 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E26054032121880000D013B5 /* Debug */,
@@ -1371,7 +1371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E26054052121880000D013B5 /* Build configuration list for PBXNativeTarget "RxMagicPills-iOSTests" */ = {
+		E26054052121880000D013B5 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E26054062121880000D013B5 /* Debug */,
@@ -1380,7 +1380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E28123EC2122C2CB00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-macOS" */ = {
+		E28123EC2122C2CB00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E28123E82122C2CB00E4F6D0 /* Debug */,
@@ -1389,7 +1389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E28123ED2122C2CB00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-macOSTests" */ = {
+		E28123ED2122C2CB00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E28123EA2122C2CB00E4F6D0 /* Debug */,
@@ -1398,7 +1398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E28124432122CC4C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-tvOS" */ = {
+		E28124432122CC4C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E28124442122CC4C00E4F6D0 /* Debug */,
@@ -1407,7 +1407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E28124462122CC4C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-tvOSTests" */ = {
+		E28124462122CC4C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E28124472122CC4C00E4F6D0 /* Debug */,
@@ -1416,7 +1416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E28124532122CC5C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMagicPills-watchOS" */ = {
+		E28124532122CC5C00E4F6D0 /* Build configuration list for PBXNativeTarget "RxMasMagicPills-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E28124542122CC5C00E4F6D0 /* Debug */,

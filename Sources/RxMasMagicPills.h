@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 
 //! Project version number for MagicPills.
-FOUNDATION_EXPORT double RxMagicPillsVersionNumber;
+FOUNDATION_EXPORT double RxMasMagicPillsVersionNumber;
 
 //! Project version string for MagicPills.
-FOUNDATION_EXPORT const unsigned char RxMagicPillsVersionString[];
+FOUNDATION_EXPORT const unsigned char RxMasMagicPillsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MagicPills/PublicHeader.h>
 

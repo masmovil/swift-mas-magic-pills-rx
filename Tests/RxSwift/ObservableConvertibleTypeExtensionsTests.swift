@@ -1,7 +1,7 @@
 import XCTest
 import Foundation
 import RxSwift
-import RxMagicPills
+import RxMasMagicPills
 
 class ObservableConvertibleTypeExtensionsTests: XCTestCase {
     func test_subscribe_to_observable_in_disposebag() {
