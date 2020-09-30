@@ -57,7 +57,7 @@ swiftlint.lint_all_files = true
 swiftlint.lint_files fail_on_error: true
 
 #TEST EVOLUTION CHECK:
-has_code_changes = !gitfiles.grep(/^Source/).empty?
+has_code_changes = !gitfiles.grep(/^Sources/).empty?
 has_tests_changes = !gitfiles.grep(/^Tests/).empty?
 
 if has_code_changes 
