@@ -12,18 +12,18 @@ class ObservableConvertibleTypeExtensionsTests: XCTestCase {
         let observer = PublishSubject<Int>()
         let observable = BehaviorSubject<Int>(value: value1)
 
-        //Subscribe 👀
+        // Subscribe 👀
         observer.subscribe(to: observable, in: disposeBag)
 
-        //Check relationship
+        // Check relationship
         XCTAssertEqual(try? observable.value(), value1)
         observer.on(.next(value2))
         XCTAssertEqual(try? observable.value(), value2)
 
-        //Destroy all binding
+        // Destroy all binding
         disposeBag = nil
 
-        //If a the observer get a new value, the observable still on last value
+        // If a the observer get a new value, the observable still on last value
         observer.on(.next(value3))
         XCTAssertNotEqual(try? observable.value(), value3)
     }
