@@ -22,6 +22,22 @@
 		F203972025E7E8BE002DBD08 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F203971A25E7E8BE002DBD08 /* RxSwift.xcframework */; };
 		F203972125E7E8BE002DBD08 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F203971A25E7E8BE002DBD08 /* RxSwift.xcframework */; };
 		F203972225E7E8BE002DBD08 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F203971A25E7E8BE002DBD08 /* RxSwift.xcframework */; };
+		F2091DFF2631B341002F071E /* DriverExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2091DFE2631B341002F071E /* DriverExtensions.swift */; };
+		F2091E082631B365002F071E /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2091E072631B365002F071E /* RxCocoa.xcframework */; };
+		F2091E092631B365002F071E /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2091E072631B365002F071E /* RxCocoa.xcframework */; };
+		F2091E0A2631B365002F071E /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2091E072631B365002F071E /* RxCocoa.xcframework */; };
+		F2091E0B2631B365002F071E /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2091E072631B365002F071E /* RxCocoa.xcframework */; };
+		F2091E142631B381002F071E /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2091E132631B381002F071E /* RxRelay.xcframework */; };
+		F2091E152631B381002F071E /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2091E132631B381002F071E /* RxRelay.xcframework */; };
+		F2091E162631B381002F071E /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2091E132631B381002F071E /* RxRelay.xcframework */; };
+		F2091E172631B381002F071E /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2091E132631B381002F071E /* RxRelay.xcframework */; };
+		F2091E1F2631B3A1002F071E /* DriverExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2091DFE2631B341002F071E /* DriverExtensions.swift */; };
+		F2091E202631B3A2002F071E /* DriverExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2091DFE2631B341002F071E /* DriverExtensions.swift */; };
+		F2091E212631B3A2002F071E /* DriverExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2091DFE2631B341002F071E /* DriverExtensions.swift */; };
+		F2091E672631BD5B002F071E /* ObservableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2091E662631BD5B002F071E /* ObservableExtensions.swift */; };
+		F2091E682631BD5B002F071E /* ObservableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2091E662631BD5B002F071E /* ObservableExtensions.swift */; };
+		F2091E692631BD5B002F071E /* ObservableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2091E662631BD5B002F071E /* ObservableExtensions.swift */; };
+		F2091E6A2631BD5B002F071E /* ObservableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2091E662631BD5B002F071E /* ObservableExtensions.swift */; };
 		F2688C8623549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C8523549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift */; };
 		F2688C8723549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C8523549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift */; };
 		F2688C8823549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2688C8523549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift */; };
@@ -86,6 +102,10 @@
 		E281244E2122CC5B00E4F6D0 /* RxMasMagicPills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMasMagicPills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F203971925E7E8BE002DBD08 /* MasMagicPills.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MasMagicPills.xcframework; path = Carthage/Build/MasMagicPills.xcframework; sourceTree = "<group>"; };
 		F203971A25E7E8BE002DBD08 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		F2091DFE2631B341002F071E /* DriverExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverExtensions.swift; sourceTree = "<group>"; };
+		F2091E072631B365002F071E /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		F2091E132631B381002F071E /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		F2091E662631BD5B002F071E /* ObservableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExtensions.swift; sourceTree = "<group>"; };
 		F2688C8523549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableConvertibleTypeExtensions.swift; sourceTree = "<group>"; };
 		F2688C8E2354BB510043FA21 /* DisposableContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposableContainer.swift; sourceTree = "<group>"; };
 		F2688C932354BB9D0043FA21 /* ObservableConvertibleTypeExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableConvertibleTypeExtensionsTests.swift; sourceTree = "<group>"; };
@@ -101,7 +121,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F203971B25E7E8BE002DBD08 /* MasMagicPills.xcframework in Frameworks */,
+				F2091E142631B381002F071E /* RxRelay.xcframework in Frameworks */,
 				F203971F25E7E8BE002DBD08 /* RxSwift.xcframework in Frameworks */,
+				F2091E082631B365002F071E /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F203971C25E7E8BE002DBD08 /* MasMagicPills.xcframework in Frameworks */,
+				F2091E152631B381002F071E /* RxRelay.xcframework in Frameworks */,
 				F203972025E7E8BE002DBD08 /* RxSwift.xcframework in Frameworks */,
+				F2091E092631B365002F071E /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F203971D25E7E8BE002DBD08 /* MasMagicPills.xcframework in Frameworks */,
+				F2091E162631B381002F071E /* RxRelay.xcframework in Frameworks */,
 				F203972125E7E8BE002DBD08 /* RxSwift.xcframework in Frameworks */,
+				F2091E0A2631B365002F071E /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F203971E25E7E8BE002DBD08 /* MasMagicPills.xcframework in Frameworks */,
+				F2091E172631B381002F071E /* RxRelay.xcframework in Frameworks */,
 				F203972225E7E8BE002DBD08 /* RxSwift.xcframework in Frameworks */,
+				F2091E0B2631B365002F071E /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +216,7 @@
 			children = (
 				F2688C8A2354AB720043FA21 /* Protocols */,
 				F2AC72EB23463A0300661BE9 /* RxSwift */,
+				F2091DF62631B287002F071E /* RxCocoa */,
 				F26C3AF722537A4600189D28 /* RxMasMagicPills.swift */,
 				E26053F12121880000D013B5 /* RxMasMagicPills.h */,
 				E26053F22121880000D013B5 /* Info.plist */,
@@ -210,8 +239,18 @@
 			children = (
 				F203971925E7E8BE002DBD08 /* MasMagicPills.xcframework */,
 				F203971A25E7E8BE002DBD08 /* RxSwift.xcframework */,
+				F2091E132631B381002F071E /* RxRelay.xcframework */,
+				F2091E072631B365002F071E /* RxCocoa.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2091DF62631B287002F071E /* RxCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				F2091DFE2631B341002F071E /* DriverExtensions.swift */,
+			);
+			path = RxCocoa;
 			sourceTree = "<group>";
 		};
 		F2688C8A2354AB720043FA21 /* Protocols */ = {
@@ -227,6 +266,7 @@
 			children = (
 				F2AC72EC23463A1700661BE9 /* ObservableTypeExtensions.swift */,
 				F2688C8523549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift */,
+				F2091E662631BD5B002F071E /* ObservableExtensions.swift */,
 			);
 			path = RxSwift;
 			sourceTree = "<group>";
@@ -576,9 +616,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2091E672631BD5B002F071E /* ObservableExtensions.swift in Sources */,
 				F2AC72ED23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F2688C8F2354BB510043FA21 /* DisposableContainer.swift in Sources */,
 				F2688C8623549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */,
+				F2091DFF2631B341002F071E /* DriverExtensions.swift in Sources */,
 				F26C3AF822537A4600189D28 /* RxMasMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,9 +638,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2091E682631BD5B002F071E /* ObservableExtensions.swift in Sources */,
 				F2AC72EE23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F2688C912354BB7D0043FA21 /* DisposableContainer.swift in Sources */,
 				F2688C8723549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */,
+				F2091E1F2631B3A1002F071E /* DriverExtensions.swift in Sources */,
 				F26C3AF922537A4600189D28 /* RxMasMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,9 +660,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2091E692631BD5B002F071E /* ObservableExtensions.swift in Sources */,
 				F2AC72EF23463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F2688C902354BB510043FA21 /* DisposableContainer.swift in Sources */,
 				F2688C8823549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */,
+				F2091E202631B3A2002F071E /* DriverExtensions.swift in Sources */,
 				F26C3AFA22537A4600189D28 /* RxMasMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -636,9 +682,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2091E6A2631BD5B002F071E /* ObservableExtensions.swift in Sources */,
 				F2AC72F023463A1700661BE9 /* ObservableTypeExtensions.swift in Sources */,
 				F2688C922354BB7E0043FA21 /* DisposableContainer.swift in Sources */,
 				F2688C8923549EFB0043FA21 /* ObservableConvertibleTypeExtensions.swift in Sources */,
+				F2091E212631B3A2002F071E /* DriverExtensions.swift in Sources */,
 				F26C3AFB22537A4600189D28 /* RxMasMagicPills.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
